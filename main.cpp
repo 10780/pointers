@@ -23,7 +23,7 @@ int main(){
     //cycle through first array
     for (int i = 0; i < MAX; i++){
         cout << "Value: [" << i << "] = "; //print values in array
-        cout << ptr01[i] << endl;
+        cout << *ptr01[i] << endl;
         cout << "Memory location: " << ptr01 << "\n"; //print memory address of ptr
         cout << '\a'; //I like the ding lol
     }
@@ -33,7 +33,7 @@ int main(){
 
     for (int i = 0; i < MAX; i++){
         cout << "Value : [" << i << "] = ";
-        cout << ptr02[i] << endl;
+        cout << *ptr02[i] << endl;
         cout << "Memory location: " << ptr02 << "\n";
         cout << '\a';
 
